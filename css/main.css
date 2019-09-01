@@ -1,0 +1,148 @@
+/*******BASE STYLES*********/
+
+body {
+	font-family: 'Roboto Slab', serif;
+	color: #095256;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#about{
+	height: 650px;
+}
+
+#contact{
+	height: 450px;
+}
+
+/****************GRID********************/
+
+.full-width{
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.half-width{
+	width: 600px;
+	float: left;
+}
+
+.third-width{
+	width: 450px;
+	float: left;
+}
+
+.portfolio-items{
+	overflow: auto;
+}
+
+/*********HEADER**********/
+
+
+header {
+	height: 800px;
+	background: url('../img/hero-image.png') no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+h1{
+	font-size: 60px;
+	font-weight: bold;
+	color: #bdbf09;
+	text-align: center;
+	padding: 350px 0 5px 0;
+}
+
+h2{
+	font-family: Roboto;
+	font-size: 48px;
+	text-align: center;
+	font-weight: normal;
+	padding: 0 150px 2px 150px;
+}
+
+nav {
+	float: right;
+	padding: 75px 400px;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	padding-left: 80px;
+	color: #bdbf09;
+}
+
+
+nav ul li {
+	display: inline-block;
+}
+
+/**********WORK***********/
+
+
+h3{
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+h4{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+}
+
+h5{
+	font-size: 24px;
+	font-weight: normal;
+	text-align: left;
+}
+
+
+#work .half-width{
+	padding: 50px 95px 100px 5px;
+}
+
+
+#work p{
+	line-height: 50px;
+	text-align: left;
+}
+/********ABOUT**********/
+
+#about {
+	background-color: #087e8b;
+	color: #ffffff;
+	padding-top: 50px;
+}
+
+/********CONTACT*********/
+
+#contact .full-width{
+	overflow: hidden;
+}
+
+#contact {
+	background-color: #095156;
+	color: #ffffff;
+}
+
+
+#contact h3{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+#contact h4, p, #icons {
+	text-align: center;
+}
+
+
+#contact .third-width {
+	margin: 0 auto;
+}
